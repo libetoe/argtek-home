@@ -511,7 +511,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* ------------- Section Header Style -------------- */
 .section-header {
     position: relative;
-    max-width: 700px;
+    max-width: 90%;
     margin: 0 auto;
 }
 
@@ -535,8 +535,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-header p {
-    text-align: center;
+    text-align: left;
     padding-bottom: 30px;
+    color: #000;
 }
 
 
@@ -662,6 +663,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .services .section-header p {
     margin:0;
     padding: 0;
+    text-align: center;
 }
 
 .single-service {
@@ -1145,77 +1147,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
-/* --------------- Testimonials Style -------------- */
-.testimonials {
-    position: relative;
-    padding: 60px 0;
-    background: #f2f2f2;
-}
-
-.testimonials .container {
-    max-width: 900px;
-}
-
-.testimonials .section-header {
-    margin-bottom: 20px;
-}
-
-.testimonials .testimonial-item {
-    position: relative;
-    background: #ffffff;
-}
-
-.testimonials .testimonial-text {
-    padding: 25px 25px 25px 0;
-}
-
-.testimonials .testimonial-item img {
-    background: #353535;
-}
-
-.testimonials .testimonial-item h3 {
-    font-size: 20px;
-    color: #353535;
-    margin-bottom: 0;
-}
-
-.testimonials .testimonial-item h4 {
-    font-size: 14px;
-    color: #999999;
-    margin: 0 0 15px 0;
-}
-
-.testimonials .testimonial-item p {
-    font-size: 14px;
-    margin: 0;
-}
-
-.testimonials .owl-nav,
-.testimonials .owl-dots {
-    margin-top: 5px;
-    text-align: center;
-}
-
-.testimonials .owl-dot {
-    display: inline-block;
-    margin: 0 5px;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: #dddddd;
-}
-
-.testimonials .owl-dot.active {
-    background-color: #1dbf73;
-}
-
-@media (max-width: 575px) {
-    .testimonials .testimonial-text {
-        padding: 25px;
-    }
-}
-
-
 /* ------------------ Clients Style ---------------- */
 .clients {
     padding: 60px 0;
@@ -1375,7 +1306,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer .footer-top {
-    background: #1dbf73;
+    background: #4169E1;
     padding: 60px 0 30px 0;
 }
 
@@ -1384,19 +1315,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 .footer .footer-top .footer-contact,
 .footer .footer-top .footer-newsletter {
     margin-bottom: 30px;
+
 }
 
 .footer .footer-top .footer-info h3 {
     font-size: 34px;
     padding: 2px 0 2px 0px;
     line-height: 1;
-    color: #ffffff;
+    color: #fff;
 }
 
 .footer .footer-top .footer-info p {
     font-size: 14px;
     line-height: 24px;
-    color: #ffffff;
+    color: #fff;
 }
 
 .footer .footer-top .social-links a {
@@ -1415,7 +1347,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer .footer-top .social-links a:hover {
-    background: #353535;
+    background: #4169E1;
     color: #ffffff;
 }
 
