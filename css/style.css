@@ -622,11 +622,19 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 0 30px;
 }
 
-.about .read-more {
+.about .read-more,
+.read-more{
     width: 100%;
     text-align: center;
 }
-
+.team .read-more{
+    background: #1dbf73;
+}
+.team .read-more a{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 100;
+}
 .about .read-more a {
     font-size: 14px;
     letter-spacing: 1px;
